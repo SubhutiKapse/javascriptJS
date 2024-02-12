@@ -14,3 +14,5 @@ console.log(typeof b)
 
 let c=12.44
 console.log(typeof c)
+
+
