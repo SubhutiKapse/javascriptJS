@@ -60,3 +60,36 @@ if (a>b){
 if (b>a){
     console.log("b is greater")
 }
+
+
+// program 6
+let x1=10
+let x2=500
+let x3=300
+
+if  (x1 > x2 && x2 >x3){
+console.log("x1 is greater")
+}
+else if (x2>x3 && x2>x3){
+    console.log("x2 is greater")
+    }
+else{
+    console.log("x3 is greater")
+}    
+
+//program 7
+
+let city="Pune"
+switch(city){
+    case"Pune":
+    console.log("MH")
+    break
+    case"Jaipur":
+    console.log("Rj")
+    break
+    case"Bhopal":
+    console.log("MP")
+    break
+default:
+    console.log("Incorrect city")
+}

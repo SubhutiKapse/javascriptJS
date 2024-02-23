@@ -247,3 +247,53 @@ console.log(numm.slice(-3))
 console.log(numm.slice(-10,4))
 console.log(numm.slice(1,-6))
 console.log(numm.slice(-1,-3))
+console.log(numm.slice(1,6))
+
+//splice
+let citieS=["pune","mumbai","banglore","kolkata"]
+citieS.pop()//removes last element
+cities.shift()//removes 1st element
+console.log(citieS)
+
+//fill()
+let numA=[11,22,33,44,55,66]
+l1=numA.fill('@',1,5)//1-index,5-not included
+console.log(l1)
+
+
+                 //    0                  1                     2
+//flat()        0       1          0        1           0          1
+let states=[["nagpur","wardha"],["indore","bhopal"],["jaipur","udaipur"]]
+console.log(states[0][1])//0-index1 ,1-index2
+console.log(states[1][1])
+let aq=states.flat()
+console.log(aq)
+
+
+
+//sort(only alphabets)
+//at()
+//join()
+
+let fruits=["apple","banana","orange","straberry"]
+aa=fruits.sort()
+//console.log(fruits)
+console.log(aa)
+
+
+
+let t1=[111,222,333,444,555]
+let t2=t1.indexOf(444)//element
+let t3=t1.at(3)//index
+console.log(t2)
+console.log(t3)
+
+
+//join()
+let info1=["subhuti","kapse",9119457080]
+r1=info1.join('@')
+console.log(r1)
+
+d1=info1.join('  ')
+console.log(d1)
+
