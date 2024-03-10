@@ -159,3 +159,40 @@ let a1=students1.reduce(function(acc,el){
     return el.age + acc
 },0)
 console.log(a1/students.length)
+
+
+
+let class =[ 
+
+    {
+       firstName:"subhuti",
+       lastName:"kapse",
+       age:21,
+       skills:["python","js","css","html"],
+       city:"nagpur"
+    },
+    {
+        firstName:"shimla",
+        lastName:"upadhyah",
+        age:22,
+        skills:["python","js","css","html"],
+        city:"pune"
+    },
+    {
+        firstName:"savan",
+        lastName:"deshmukh",
+        age:23,
+        skills:["python","js","css","html"],
+        city:"banglore"
+    },
+]
+
+//firstname of all students
+// for (let i=0;i< class.length;i++){
+//     console.log(class.length.firstName)
+// }
+
+
+for ( let i=0;i<class.length;i++){
+    console
+}
