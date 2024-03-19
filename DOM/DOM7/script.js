@@ -10,3 +10,5 @@ buttonA.addEventListener('click',function(){
      ulList.appendChild(newLi)
      inputText.value=""
 })
+
+
