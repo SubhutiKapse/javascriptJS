@@ -193,6 +193,6 @@ let class =[
 // }
 
 
-for ( let i=0;i<class.length;i++){
-    console
-}
+//for ( let i=0;i<class.length;i++){
+    //console
+//}
