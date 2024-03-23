@@ -139,7 +139,7 @@ for (let i=0;i<students1.length;i++){
     if (students1[i].age >30 && students1[i].city==='pune'){
    console.log(students1[i].firstname)
     }
-}
+}   
 
 //add css skills to every students
 for(let i=0;i<students1.length;i++){
