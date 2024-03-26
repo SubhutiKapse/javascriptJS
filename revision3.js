@@ -338,3 +338,6 @@ for (let i=100;i>=10;i=i-10){
 a1=10
 for (let a1=10; a1>=0;a1=a1-1);
 console.log(a1)
+
+let names=["subhuti","shyli","sapeksha","lavi"]
+console.log(names)
