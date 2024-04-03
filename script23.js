@@ -100,11 +100,3 @@ console.log(shreya.fn)
 
 
 
-// info = {
-//     firstName:"chinmay"
-// }
-// info.first_name = "sarika"
-// info.city  = "pune"
-// console.log(info.city)
-
-
