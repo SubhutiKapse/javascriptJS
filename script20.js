@@ -147,7 +147,7 @@ let w3=fruit.startsWith("Ba")
 console.log(w3)
 
 //program 4
-let vegetable.kamla="brinjal"
+let vegetable="brinjal"
 let z1=vegetable.includes('i')
 let z2=vegetable.includes('in')
 let z3=vegetable.includes('ill')
