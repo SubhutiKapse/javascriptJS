@@ -1,62 +1,99 @@
-// program 1
-console.log("hello")
+// // call , bind , apply
+// // object literal
+let subhuti = {
+    firstName:"subhuti",
+    lastName:'kapse',
+    displayName:function(){
+        console.log(this.firstName + this.lastName)
+    }
+}
+subhuti.displayName()
 
+let sanu  = {
+    firstName:"sanu",
+    lastName:"tirpude",
+}
 
+//let displayName2  = subhuti.displayName
+let displayName2 = function(){
+    console.log(this.firstName + this.lastName)
+}
+
+//bind() 
+
+//let arr = displayName2.bind(sanu)
+let arr = function(){
+        console.log(sanu.firstName + sanu.lastName)
+    }
+
+//call()
+//apply()
+
+console.log(subhuti.firstName)
+console.log(subhuti.lastName)
+subhuti.displayName()
 
 // program 2
 
-var firsName = "subhuti"
-var lastName = "kapse"
-//console.log(window.firstName)
-//console.log(window.lastName)
+let ram = {
+    firstName:"ram",
+    lastName:"raj"
+} 
+let laxman = {
+    firstName:"laxman",
+    lastName:"bharadwaj"
+} 
 
-let sonu = {
-    firsName:"sonu",
-    lastName:"raj",
-    displayName:function(){
-        // this --- sonu
-        console.log(this.firsName + this.lastName) // sonuraj
-        let displayName2 = function(){
-            // this ---> window
-            console.log(this.firsName + this.lastName) // subhutikapse
-        }
-        displayName2()
-    }
+let krishna = {
+    firstName:"krishna",
+    lastName:"kumar"
+} 
+
+let displayName = function(){
+    console.log(this.firstName + this.lastName)
 }
-sonu.displayName()
+let q1 = displayName.bind(ram)
+let q2 = displayName.bind(laxman)
+let q3 = displayName.bind(krishna)
 
 
-//program 2
-let raj = {
-    firsName:"raj",
-    lastName:"thakur",
-    displayName:function(){
-        // this --- raj
-        console.log(this.firsName + this.lastName) // rajthakur
-        let displayName2 = () =>{
-            // this - raj
-            console.log(this.firsName + this.lastName) // rajthakur
-        }
-        displayName2()
-    }
+let displayName3 = function(greet){
+    console.log(this.firstName+ this.lastName)
+    console.log(greet)
 }
-raj.displayName()
+
+displayName3.call(ram,"hello")
+displayName3.call(laxman,"hello2")
+displayName3.call(krishna,"hello3")
+
+
+displayName3.apply(ram,["bye"])
+displayName3.apply(ram,["bye2"])
+displayName3.apply(ram,["bye3"])
 
 
 
-
-
-let  kamlesh = {
-    firsName:"kamlesh",
-    lastName:"kumar",
-    displayName:()=>{
-        // this --- window
-        console.log(this.firsName + this.lastName) // 
-        let displayName2 = () =>{
-            // this - window
-            console.log(this.firsName + this.lastName) // 
-        }
-        displayName2()
-    }
+//function declaration
+function displayColor(cl){
+    return cl + "G"
 }
-kamlesh.displayName()
+let r = displayColor("green")
+console.log(r)
+
+
+
+let  displayColor3 = function(cl){
+    return cl + "G"
+}
+let r2 = displayColor3("green")
+console.log(r2)
+
+// let  displayColor4 = (cl)=>{
+//     return cl + "G"
+// }
+// let r3 = displayColor4("green")
+// console.log(r3)
+
+let  displayColor4 = (cl)=>cl + "G"
+let r3 = displayColor4("green")
+console.log(r3)

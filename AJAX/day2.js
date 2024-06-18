@@ -1,0 +1,147 @@
+function additionA() {
+    console.log('A')
+}
+function additionB() {
+    console.log('B')
+}
+additionB()
+additionA()
+
+//sync---execute code line by line
+
+//program 2
+function additionC() {
+    setTimeout(function () {
+        console.log('C')
+    }, 3000)
+
+}
+function additionD() {
+    console.log('D')
+}
+additionC()
+additionD()
+
+//program 3
+function getInfo() {
+    setTimeout(function () {
+        console.log("user created")
+    }, 3000)
+
+
+    setTimeout(function () {
+        console.log("getId")
+    }, 2000)
+
+    setTimeout(function () {
+        console.log("getId")
+    }, 1000)
+}
+
+//getInfo()
+function getInfo() {
+    setTimeout(function () {
+        console.log("user created")
+        setTimeout(function () {
+            console.log("getId")
+            setTimeout(function () {
+                console.log("getInfo")
+            }, 1000)
+
+
+
+        }, 2000)
+
+
+    }, 3000)
+}
+getInfo()
+
+//Promise
+
+//pending.resolve,reject
+let pro = new Promise(function (resolve, reject) {
+    let a = 10
+    let b = 10
+    if (a == b) {
+        resolve("hello")
+    }
+    else {
+        reject("bye")
+    }
+})
+//consuming the promise
+pro.then(function(str){
+    console.log(str)
+},function(str){
+    console.log(str)
+})
+
+//program 2
+
+let pro2=new Promise(function(resolve,reject){
+    let cities=["pune","banglore","kolkata"]
+    if(cities.includes("pune")){
+        resolve([11,22,33])
+    }
+    else{
+        reject([-11,-22,-33])
+    }
+})
+
+//pro2
+.then(function(a){
+    console.log(a[0])
+})
+.catch(function(b){
+    console.log(b[0])
+})
+
+
+//program 3
+let pro3=new Promise(function(resolve,reject){
+    let c=[11,22,33]
+    if(c.includes(333)){
+        resolve("hello")
+    }
+    else{
+        reject("bye")
+    }
+})
+
+pro3
+.then(function(str){
+    console.log(str)
+})
+.catch(function(str){
+    console.log(str)
+})
+.finally(function(){
+    console.log("i will always execute")
+})
+
+//program 4
+let pro4=new Promise(function(resolve,reject){
+    let a=10
+    let b=10
+    if(a==b){
+        resolve("hello")
+    }
+    else{
+        reject("bye")
+    }
+})
+pro4
+.then(function(str){
+    console.log(str)
+    return"hello2"
+})
+.then(function(str2){
+    console.log(str2)
+})
+.catch(function(str2){
+    console.log(str2)
+})
+.finally(function(){
+    console.log(str2)
+})
