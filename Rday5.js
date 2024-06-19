@@ -75,3 +75,86 @@ switch(isgreatest){
       default:
         console.log("x3 is greater")
 }
+
+
+//switch case without break statement
+//program 1
+let cityy = "jaipur"
+switch (cityy) {
+    case "pune":
+        console.log("MH")
+    case "bhopal":
+        console.log("MP")
+    case "jaipur":
+        console.log("RJ")
+    default:
+        console.log("incorrect city name")
+}
+
+// let city1 = "jaipur"
+// switch (city1) {
+//     case "pune":
+//     console.log("MH")
+//     case "bhopal":
+//     console.log("MP")
+//     case "jaipur":
+//     console.log("RJ")
+//     default:
+//         console.log("incorrect city name")
+// }
+
+//program 2
+//switch using break statement
+let city1="pune"
+switch(city1){
+    case"mumbai":
+    console.log("MH")
+    break
+    case"bhopal":
+    console.log("MP")
+    break
+    case"jaipur":
+    console.log("RJ")
+    break
+    default:
+        console.log("incorrect city name")
+
+}
+
+// let city2="mumbai"
+// switch(city1){
+//     case"mumbai":
+//     console.log("MH")
+//     break
+//     case"bhopal":
+//     console.log("MP")
+//     break
+//     case"jaipur":
+//     console.log("RJ")
+//     break
+//     default:
+//         console.log("incorrect city name")
+
+// }
+
+
+//program 3
+let city3="indore"
+switch(city3){
+    case"pune":
+    case"nagpur":
+    console.log("MH")
+    break
+
+    case"bhopal":
+    case"indore":
+    console.log("MP")
+    break
+
+    case"jaipur":
+    case"udaipur":
+    console.log("RJ")
+    break
+    default:
+        console.log("incorrect city")
+}
