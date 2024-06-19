@@ -1,3 +1,6 @@
+//LOOPS
+
+
 //loops--- repeatitive operator based on conditions
 //for loop
 //for(initialization;Condition;increment/decrement)
@@ -395,73 +398,6 @@ while(i2<=5){
     i2=i2+1
 }
 
-// // //switch case without break statement
-// // //program 1
-
-// // let city="jaipur"
-// // switch(city){
-// //     case"pune":
-// //     console.log("MH")
-// //     case"jaipur":
-// //     console.log("RJ")
-// //     case"bhopal":
-// //     console.log("MP")
-// //     default:
-// //         console.log("incorrect city name")
-// // }
-
-
-// // //switch case using break statement
-// // let city2="jaipur"
-// // switch(city){
-// //     case"pune":
-// //     console.log("MH")
-// //     break
-// //     case"jaipur":
-// //     console.log("RJ")
-// //     break
-// //     case"bhopal":
-// //     console.log("MP")
-// //     break
-// //     default:
-// //         console.log("incorrect city name")
-// // }
-
-// // //multiple cases same output
-// // let city3="nagpur"
-// // switch(city3){
-// //     case"pune":
-// //     case"nagpur":
-// //     console.log("Maharashtra")
-// //     break
-// //     case"bhopal":
-// //     case"indore":
-// //     console.log("MadhyaPradesh")
-// //     break
-// //     case"jaipur":
-// //     case"Udaipur":
-// //     console.log("Rajasthan")
-// //     break
-// //     default:
-// //         console.log("incorrect city name")
-// // }
-
-// // //program 4
-// // let x1=2
-// // let x2=4
-// // let x3=6
-// // let greater=true
-// // switch(greater){
-// //    case  x1>x2 && x1>x3:
-// //     console.log("x1 is greater")
-// //     break
-// //     case x2>x1 && x2>x3:
-// //         console.log("x2 is greter")
-// //         break
-// //         default:
-// //             console.log("x3 is greter")
-// // }
-
 
 // //for loop
 // for(let i=1;i<=5;i++){
@@ -536,6 +472,10 @@ while(i2<=5){
 // }
 
 //while loop
+let t1=1
+while(t1<=5){
+    console.log(t1)
+}
 
 //while loop with break
 let i3=0
