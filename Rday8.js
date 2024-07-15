@@ -43,3 +43,24 @@ console.log(t4)
 let hobbies=["drawing","traveling","dancing","singing"]
 let t5=hobbies.includes("painting")
 console.log(t5)
+
+
+//
+let fruits = ["mango","banana","orange","chikoo"]
+
+
+//retrive
+console.log(fruits[0])
+
+//update
+fruits[1]="grapes"
+console.log(fruits)
+//delete
+fruits.pop()
+console.log(fruits)
+//add
+
+fruits.push("papaya")
+console.log(fruits)
+
+

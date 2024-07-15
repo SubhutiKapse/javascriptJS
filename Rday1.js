@@ -1,22 +1,26 @@
-let x=10
-console.log(x)
+//// number , boolean , string , array , object 
 
 
-let y=65
-console.log(y)
+// let x=10
+
+// console.log(x)
 
 
-let a=100
-console.log(typeof a)
-
-let b=true
-console.log(typeof b)
-
-let c=12.44
-console.log(typeof c)
+// let y=65
+// console.log(y)
 
 
-// // let a=10
+// let a=100
+// console.log(typeof a)
+
+// let b=true
+// console.log(typeof b)
+
+// let c=12.44
+// console.log(typeof c)
+
+
+// // // let a=10
 // // let b=20
 // // console.log(a)
 // // console.log(b)
@@ -173,18 +177,57 @@ console.log(typeof c)
 // }
 
 
-let t1=5
-let t2=10
-console.log(t1)
-console.log(t2)
+// let t1=5
+// let t2=10
+// console.log(t1)
+// console.log(t2)
 
 
-//arithmetic operator
-let w1=2
-let w2=4
-console.log(w1+w2)
-console.log(w1-w2)
-console.log(w1*w2)
-console.log(w1/w2)
-console.log(w1%w2)
+// //arithmetic operator
+// let w1=2
+// let w2=4
+// console.log(w1+w2)
+// console.log(w1-w2)
+// console.log(w1*w2)
+// console.log(w1/w2)
+// console.log(w1%w2)
 
+// x=10
+// console.log(x)
+// console.log(typeof(x))
+
+// //function without parameter and without returntype
+// function addV(){
+// console.log(2+5)
+// }
+// addV()
+// //function with parameter and without returntype
+// function addB(x,y){
+//     console.log(x+y)
+// }
+// addB(7,8)
+// //function with parameter and with returntype
+
+// function addF(x1,y1){
+//     return x1+y1
+// }
+// let r = addF(5,5)
+// console.log(r)
+
+// //table of 2 using for loop 
+// for(let i=2;i<=20;i=i+2){
+//     console.log(i)
+// }
+
+// //reverse table of 2
+// for(let i=20;i>=2;i=i-2){
+//     console.log(i)
+// }
+
+//table of 2 using while loop
+
+
+const pi = 3.14
+console.log(pi)
+pi = 4.14
+console.log(pi)

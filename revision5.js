@@ -196,49 +196,49 @@
 // let a1=age>=12?"can drive":"cannot drive"
 // console.log(a1)
 
-//arithmeric operation
-let a=2
-let b=4
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
+// //arithmeric operation
+// let a=2
+// let b=4
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+// console.log(a%b)
 
-function Calculator(x,y){
-    console.log(x+y)
-    console.log(x-y)
-    console.log(x*y)
-    console.log(x/y)
-    console.log(x%y)
-}
-Calculator(2,4)
+// function Calculator(x,y){
+//     console.log(x+y)
+//     console.log(x-y)
+//     console.log(x*y)
+//     console.log(x/y)
+//     console.log(x%y)
+// }
+// Calculator(2,4)
 
-//function without parameter and function without returntype
-function add(){
-    console.log(2+2)
-}
-add()
-add()
-//function with parameter and function without returntype
+// //function without parameter and function without returntype
+// function add(){
+//     console.log(2+2)
+// }
+// add()
+// add()
+// //function with parameter and function without returntype
 
 
-function addA(x,y){
-    console.log(x+y)
-}
-add(2,4)
-//function with parameter and function with returntype
-function addB(x,y){
-    return x+y
-        }
-        let q1=addB(2,6)
-        console.log(q1)
+// function addA(x,y){
+//     console.log(x+y)
+// }
+// add(2,4)
+// //function with parameter and function with returntype
+// function addB(x,y){
+//     return x+y
+//         }
+//         let q1=addB(2,6)
+//         console.log(q1)
 
-        function addC(p1,p2){
-            return p1+p2
-        }
-        let w2=addC(3,4)
-        console.log(w2)
+//         function addC(p1,p2){
+//             return p1+p2
+//         }
+//         let w2=addC(3,4)
+//         console.log(w2)
 
 
 
@@ -316,57 +316,57 @@ function addB(x,y){
 // }
 
 
-//for loop
-for(let i=1;i<=5;i++){
-    console.log(i)
-}
-//for loop with break
-for(let i=1;i<=6;i++){
-    if(i==3){
-        break
+// //for loop
+// for(let i=1;i<=5;i++){
+//     console.log(i)
+// }
+// //for loop with break
+// for(let i=1;i<=6;i++){
+//     if(i==3){
+//         break
 
-    }
-     console.log(i)
-}
-//for loop with continue
-for(let i=1;i<=7;i++){
-    if(i==4){
-        continue
-    }
-    console.log(i)
-}
-// //while loop
-let i=1 
-while(i<=5){
-    console.log(i)
-    i++
-}
-// //while loop with break
-let i2=5
-while(i2>=1){
-    if(i2==3){
-break
-    }
-console.log(i2)
-i2=i2-1
-}
-// //while loop with continue
-let i3=1
-while(i3<=10){
-    if(i3==5){
-        i3=i3+1
-        continue
+//     }
+//      console.log(i)
+// }
+// //for loop with continue
+// for(let i=1;i<=7;i++){
+//     if(i==4){
+//         continue
+//     }
+//     console.log(i)
+// }
+// // //while loop
+// let i=1 
+// while(i<=5){
+//     console.log(i)
+//     i++
+// }
+// // //while loop with break
+// let i2=5
+// while(i2>=1){
+//     if(i2==3){
+// break
+//     }
+// console.log(i2)
+// i2=i2-1
+// }
+// // //while loop with continue
+// let i3=1
+// while(i3<=10){
+//     if(i3==5){
+//         i3=i3+1
+//         continue
         
 
-    }
-    console.log(i3)//1//2
-i3=i3+1//2//3
-}
+//     }
+//     console.log(i3)//1//2
+// i3=i3+1//2//3
+// }
 
 //for loop
-for(let i=2;i<=5;i++){
-    console.log(i)
-}
+// for(let i=2;i<=5;i++){
+//     console.log(i)
+// }
 
 //for loop with break
 
@@ -374,3 +374,40 @@ for(let i=2;i<=5;i++){
 //while loop
 //while loop with break
 //while loop with break
+
+
+x=10
+console.log(x)
+
+y=20
+console.log(y)
+
+//arithmetic operator
+x1=2
+y1=4
+console.log(x1+y1)
+console.log(x1-y1)
+console.log(x1*y1)
+console.log(x1/y1)
+console.log(x1%y1)
+
+
+
+
+//function without parameter and without returntype
+
+function addA(){
+    addA(4+2)
+}
+addA()
+addA()
+//function with parameter and without returntype
+function addB(x,y){
+    console.log(x+y)
+}
+addB(2,4)
+addB(4,5)
+
+
+
+
