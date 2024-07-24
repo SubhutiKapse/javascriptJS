@@ -286,3 +286,52 @@ let w1=noQ.some(function(el,index,arr){
 console.log(w1)
 
 
+// slice()
+
+//               0      1      2        3         4         5       6
+let cities2 = ["pune","goa","nagpur","wardha","chennai","jaipur","udaipur"]
+//               -7    -6     -5       -4       -3         -2         -1
+//cities2.slice(startIndex,endIndex(not included))
+////cities2.slice(startIndex)
+console.log(cities2.slice(1))
+console.log(cities2.slice(1,5))
+console.log(cities2.slice(-5))
+console.log(cities2.slice(1,-3))
+console.log(cities2.slice(-7,4))
+console.log(cities2.slice(-1,-4))
+
+//splice() 
+//                     0        1         2        3
+let vegetabales = ["carrot","brinjal","potato","cabbage"]
+// vegetabales.shift()
+// vegetabales.pop()
+
+//vegetabales.splice(startIndex,numberOfElementTobeDeleted)
+// vegetabales.splice(1,1)
+// console.log(vegetabales)
+vegetabales.splice(2,2,"cauliflower","ladyfinger")
+console.log(vegetabales)
+
+//fill() 
+
+let markss = [45,43,41,40,33,12,31,29,9,8]
+let q12 = markss.fill('try again',5,8)
+console.log(q12)
+
+//sort()
+
+let nms = ["subhuti","shruti","sani","sanvi","sania"]
+nms.sort()
+console.log(nms)
+
+//flat()
+
+
+let state = [["pune","nagpur"],["jaipur","udaipur"],["kanpur","lucknow"]]
+
+console.log(state[1][0])
+console.log(state[0][1])
+console.log(state[2][1])
+let q1 = state.flat()
+console.log(q1)
+

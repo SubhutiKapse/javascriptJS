@@ -227,7 +227,53 @@
 //table of 2 using while loop
 
 
-const pi = 3.14
-console.log(pi)
-pi = 4.14
-console.log(pi)
+// const pi = 3.14
+// console.log(pi)
+// pi = 4.14
+// console.log(pi)
+
+
+let x=5
+console.log(x)
+console.log(typeof(x))
+
+y=2.3
+console.log(typeof(y))
+
+z="subhuti"
+console.log(z)
+console.log(typeof(z))
+
+a=true
+console.log(typeof(a))
+
+
+//arithmetic operator
+//+,-,/,*,%
+
+let q=2
+let w=4
+console.log(q+w)
+console.log(q-w)
+console.log(q*w)
+console.log(q/w)
+console.log(q%w)
+
+//function without parameters and without return type
+function add(){
+    console.log(2+2)
+}
+add()
+//function with parameters and without return type
+function addA(x,y){
+    console.log(x+y)
+}
+addA(2,3)
+
+//function with parameters and with return type
+
+function addB(x,y){
+    return x+y
+}
+let q1=addB(2,6)
+console.log(q1)

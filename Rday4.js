@@ -1,4 +1,4 @@
-//condition statement
+//conditional statement
 
 let numT=23
 if(numT >20 && numT >21){

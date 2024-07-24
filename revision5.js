@@ -248,7 +248,7 @@
 
 
 
-        // //switch case without break statement
+// //switch case without break statement
 // //program 1
 
 // let city="jaipur"
@@ -356,7 +356,7 @@
 //     if(i3==5){
 //         i3=i3+1
 //         continue
-        
+
 
 //     }
 //     console.log(i3)//1//2
@@ -376,38 +376,129 @@
 //while loop with break
 
 
-x=10
-console.log(x)
+// x=10
+// console.log(x)
 
-y=20
-console.log(y)
+// y=20
+// console.log(y)
 
-//arithmetic operator
-x1=2
-y1=4
-console.log(x1+y1)
-console.log(x1-y1)
-console.log(x1*y1)
-console.log(x1/y1)
-console.log(x1%y1)
-
-
+// //arithmetic operator
+// x1=2
+// y1=4
+// console.log(x1+y1)
+// console.log(x1-y1)
+// console.log(x1*y1)
+// console.log(x1/y1)
+// console.log(x1%y1)
 
 
-//function without parameter and without returntype
 
-function addA(){
-    addA(4+2)
+
+// //function without parameter and without returntype
+
+// function addA(){
+//     addA(4+2)
+// }
+// addA()
+// addA()
+// //function with parameter and without returntype
+// function addB(x,y){
+//     console.log(x+y)
+// }
+// addB(2,4)
+// addB(4,5)
+
+
+
+
+//conditional statement
+let num = 10
+if (num < 11 && num < 12) {
+    console.log('10 % discount')
 }
-addA()
-addA()
-//function with parameter and without returntype
-function addB(x,y){
-    console.log(x+y)
+if (num < 11 && num < 12) {
+    console.log('20 % discount')
 }
-addB(2,4)
-addB(4,5)
+if (num < 11) {
+    console.log('30 % discount')
+}
 
+//else if
+let numT = 10
+if (numT < 11 && numT < 12) {
+    console.log('10 % discount')
+}
+else if (numT < 11 && numT < 12) {
+    console.log('20 % discount')
+}
+else if (numT < 11) {
+    console.log('30 % discount')
+}
+else { console.log("incorrect input") }
 
+//if 
+let numA = 10
+if (numA > 4) {
+    console.log("A grade")
+}
+if (numA > 4) {
+    console.log("B grade")
+}
+if (numA > 4) {
+    console.log("C grade")
+}
 
+let numS = 10
+if (numS > 4) {
+    console.log("A grade")
+}
+else if (numS > 4) {
+    console.log("B grade")
+}
+else if (numS > 4) {
+    console.log("C grade")
+}
+else {
+    console.log("fail")
+}
 
+//ternary operator
+
+let a1 = 10
+let a2 = 5
+if (a1 > a2) {
+    console.log("a1 is greater")
+}
+if (a2 > a1) {
+    console.log("a2 is greater")
+}
+
+let x1 = 2
+let x2 = 4
+let x3 = 8
+if (x1 > x2 && x1 > x3) {
+    console.log("x1 is greater")
+}
+else if (x1 > x2 && x1 > x3) {
+    console.log("x1 is greater")
+}
+else {
+    console.log("x3 is greater")
+}
+
+//switch case
+let city = "pune"
+switch (city) {
+    case "pune":
+        console.log("MH")
+    case "jaipur":
+        console.log("RJ")
+    case "bhopal":
+        console.log("MP")
+        default:
+            console.log("incorrect city")
+}
+
+//switch case withn break
+
+//switch case with continue

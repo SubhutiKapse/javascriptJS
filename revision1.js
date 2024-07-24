@@ -184,12 +184,30 @@
 
 
 
-//while using continue
-let h3=10
-while(h3>=5){
-    if(h3==3){
-        continue
-    }
-    console.log(h3)
-    h3--
+// //while using continue
+// let h3=10
+// while(h3>=5){
+//     if(h3==3){
+//         continue
+//     }
+//     console.log(h3)
+//     h3--
+// }
+
+
+
+
+//conditional statment
+//one input multiple outcomes
+//if condition
+
+let num=10
+if(num<2 && num <3){
+    console.log('10% discount')
+}
+if(num<2 && num <3){
+    console.log('20% discount')
+}
+if(num<2){
+    console.log('30% discount')
 }

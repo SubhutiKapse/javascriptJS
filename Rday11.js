@@ -211,7 +211,7 @@ console.log(namesY)
 // retrive 
 console.log(namesY[0])
 
-// udapte 
+// update 
 namesY[0]  = "sapeksha"
 console.log(namesY)
 // add 
