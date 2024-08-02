@@ -4,7 +4,7 @@ let buttonA = document.querySelector('button')
 
 buttonA.addEventListener('click',function(){
     let fruitN = inputT.value
-    let newE = document.createElement('li') // <li></li>
+    let newE = document.createElement('li') 
     newE.textContent = fruitN // <li>Banana</li>
     ulList.appendChild(newE)
     inputT.value = ""
