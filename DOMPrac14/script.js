@@ -8,8 +8,8 @@ console.log(buttonOne)
 
 buttonOne.addEventListener('click',function(){
     let vText = input.value
-    let newLi = document.createElement('li') // <li></li>
-    newLi.textContent  = vText  // <li>Cabbage</li>
+    let newLi = document.createElement('li') 
+    newLi.textContent  = vText  
     createButtons(newLi)
     ulList.appendChild(newLi)
     input.value = ""

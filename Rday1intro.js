@@ -277,3 +277,12 @@ function addB(x,y){
 }
 let q1=addB(2,6)
 console.log(q1)
+
+
+//function withot parameter and without returntype
+function addA(){
+    console.log(2+20)
+}
+addA()
+//function with parameter and without returntype
+//function with parameter and with returntype

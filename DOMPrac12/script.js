@@ -3,9 +3,9 @@ let ulList = document.querySelector('ul')
 let buttonA = document.querySelector('button')
 
 buttonA.addEventListener('click',function(){
-    let fruitN = inputT.value
+    let comP = inputT.value
     let newE = document.createElement('li') 
-    newE.textContent = fruitN // <li>Banana</li>
+    newE.textContent = comP 
     ulList.appendChild(newE)
     inputT.value = ""
 })

@@ -7,9 +7,9 @@ console.log(buttOne)
 console.log(inputT)
 
 buttOne.addEventListener('click',function(){
-    let fruittext = inputT.value
+    let CompanyText = inputT.value
     let newLi = document.createElement('li') // <li></li>
-    newLi.textContent = fruittext  // <li>Apple</li>
+    newLi.textContent =CompanyText 
     createButtons(newLi)
     ulList.appendChild(newLi)
     inputT.value = ""
