@@ -220,10 +220,110 @@ console.log(setB.has(55))
 // console.log(setB.keys())
 // console.log(setB.values())
 
+/////////////////////////////////////////////////////
+// Object literal
+// Function constructor 
+// Es6 class
+// Object.create()
 
-class Person{
-    firstName = undefined
-   lastName = undefined
-    age = undefined
-    rollNo = undefined
+
+// let subhuti = {
+//     firstName:"chinmay",
+//     lastName:"deshpande",
+//     rollNo:34,
+//     displayName:function(){
+//         console.log(this.firstName + this.lastName)
+//     }
+// }
+// subhuti.displayName()
+
+// function contructor
+
+
+function Person(fn,ln,ag){
+    this.firstName = fn 
+    this.lastName = ln 
+    this.age   = ag
+    // this.displayName = function(){
+    //     console.log(this.firstName + this.lastName)
+    // }
 }
+let subhuti = new Person("subhuti","kapse",21,553)
+let subhuti2 = new Person("subhuti2","kapse2",23,553)
+console.log(subhuti)
+console.log(subhuti2)
+
+// subhuti.displayName()
+// subhuti2.displayName()
+
+// Every object has one __proto__ === Parent.prototype
+
+console.log(subhuti.__proto__ === Person.prototype)
+Person.prototype.displayName = function(){
+    console.log(this.firstName + this.lastName)
+}
+Person.prototype.country = "India"
+
+subhuti.displayName()
+subhuti2.displayName()
+console.log(subhuti.hasOwnProperty("country"))
+
+// array
+let names = ["subhuti","sapi","sani","shyli"]
+console.log(names)
+names.forEach(function(el){
+    console.log(el)
+})
+
+// Array.prototype.subhuti  = function(){
+//     console.log("hello")
+// }
+// names.subhuti()
+
+
+// Es6 class 
+
+// class PersonC {
+//     constructor(fn,ln,ag){
+//         this.firstName = fn 
+//         this.lastName = ln 
+//         this.age  = ag
+//         // this.displayName = function(){
+//         //     console.log(this.firstName + this.lastName)
+//         // }
+//     }
+//     displayName(){
+//         console.log(this.firstName + this.lastName)
+//     }
+
+// }
+
+// PersonC.prototype.displayName = function(){
+//     console.log(this.firstName + this.lastName)
+// }
+
+// let sanu = new PersonC("sanu","rai",21)
+// let sanuA = new PersonC("sanuA","raiA",21)
+// console.log(sanuA)
+// console.log(sanu)
+
+// sanu.displayName()
+// sanuA.displayName()
+
+
+// Program 4
+let obj = {
+    init:function(fn,ln,ag){
+        this.firstName = fn 
+        this.lastName = ln 
+        this.age = ag
+    },
+    displayName:function(){
+        console.log(this.firstName + this.lastName)
+    }
+}
+
+let charlie = Object.create(obj)
+console.log(charlie)
+charlie.init("charlee","raj",21)
+charlie.displayName()

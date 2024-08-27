@@ -120,3 +120,12 @@ console.log(2==0 || 3==5)
 //!false--true
 console.log(!(2==3))
 console.log(!(2==2))
+
+
+//////////////////////////////////////////
+//mayuri mam
+
+
+//properties and methods
+
+//
